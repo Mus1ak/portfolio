@@ -1,0 +1,36 @@
+:root {
+  --bgcolor: #15252f;
+  --main-text: #fbeeac;
+  --secondary-text: #f4e0b9;
+  --third-text: #353f47;
+}
+
+::selection {
+  /* Code for Firefox */
+  background: var(--third-text);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: default;
+  font-family: "olivera";
+  font-weight: 900;
+  background-color: var(--bgcolor);
+}
+
+.main {
+  padding: 0 5vw;
+}
+section {
+  padding: 100px 0;
+}
+section .section-header {
+  margin-bottom: 50px;
+}
+@media (max-width: 600px) {
+}
